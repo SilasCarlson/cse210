@@ -1,5 +1,3 @@
-using System.Net.Mime;
-
 class Scripture
 {
     private List<Word> _words = [];

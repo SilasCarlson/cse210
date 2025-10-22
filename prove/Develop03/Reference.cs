@@ -1,5 +1,3 @@
-using System.Collections.Concurrent;
-
 class Reference
 {
     private string _book;

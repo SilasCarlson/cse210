@@ -1,5 +1,3 @@
-using System.Net.Mime;
-
 class Word
 {
     private bool _isHidden = false;
