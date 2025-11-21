@@ -73,6 +73,8 @@ class Menu
         Console.Write("What is the filename for the goal file? ");
         string fileName = Console.ReadLine();
 
+        _goals.Clear();
+
         string[] lines = System.IO.File.ReadAllLines(fileName);
         for (int i = 0; i < lines.Length; i++)
         {
